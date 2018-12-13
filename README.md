@@ -1,6 +1,6 @@
 # Iterative Closest Point Algorithm
 
-![armadillo dataset results](https://github.com/vinits5/icp_registration_cpp/master/doc/results.jpg)
+![armadillo dataset results](https://github.com/vinits5/icp_registration_cpp/blob/master/doc/results.jpeg)
 
 The code is an implementation of Iterative Closest Point Registration algorithm. This algorithm is used to find the rigid transformation between Sensor Point Cloud and Model Point Cloud.
 
