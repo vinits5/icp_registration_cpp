@@ -7,13 +7,13 @@ all:
 	make compile && make run && make results
 
 compile:
-	g++ -std=c++11 $(file) $(TREE) $(DATA_TYPE) $(ICP) -o icp_with_options
+	g++ -std=c++11 $(file) $(TREE) $(DATA_TYPE) $(ICP) -o build/icp_with_options
 
 clean:
-	rm icp_with_options && rm output.txt && rm transformation.txt
+	rm -r build && rm output.txt && rm transformation.txt
 
 run:
-	./icp_with_options
+	./build/icp_with_options
 
 results:
 	python display_results.py
